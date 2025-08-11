@@ -1,0 +1,167 @@
+/* Wolf Martin Cs-125h-lab-6 8/7/2025 V4 */
+/*Color palette
+  #181363
+  #52527e
+  black
+  #f5f5f5
+  #fae900
+  #000031
+  #ffea00cc
+  #020252
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*html*/
+html {
+    background-image: url(images/sky-cloud.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/*Body Info*/
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: .5em;
+    width: 65%;
+    max-height: 100%;
+    margin: 1em auto;
+}
+/*links*/
+a:link {
+    color: #fae900;
+    text-decoration: none;
+}
+a:hover:focus {
+    color: #ffea00cc;
+    text-decoration: underline;
+}
+a:visited {
+    color: #fa8e00;
+}
+/*plain element*/
+header, footer {
+    background-image: linear-gradient(to right, #181363, #52527e, black, #52527e, #181363);
+}
+p {
+    text-align: left;
+    font-size: 115%;
+}
+/*id*/
+/*i could not for the life of me figure out the grey scale and I know I could have done this better but i couldn't do it.*/
+#socials{
+    background-color: #000031;
+    border: .3em solid #52527e;
+    margin-top: .5em;
+    float: left;
+    width: 48.06%;
+    max-height: 30em;
+}
+#socials img {
+ width: 10%;
+ margin: .2em .5em;
+ padding: .5em;
+}
+#socials img:hover{
+    filter: grayscale(100%);
+}
+/*header*/
+header {
+    text-align: center;
+    border: #52527e .3em solid;
+    border-radius: .3em;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+header h1 {
+    text-align: center;
+    letter-spacing: .15em;
+    text-shadow: .1em .1em 0px rgb(82, 82, 82);
+}
+
+/*styles form main*/
+main {
+    background-color: #52527e;
+    border-radius: .3em;
+    padding: .5em;
+    margin: 1em 0;
+}
+main h1 {
+    text-align: center;
+    font-size: 150%;
+    text-shadow: .1em .1em 0px rgb(82, 82, 82);
+}
+main h2 {
+    text-align: center;
+    font-size: 180%;
+}
+main p {
+    text-indent: 1em;
+}
+/*Sections*/
+ section {
+    background-color: #000031;
+    padding: 1em;
+    border-radius: 8px;
+    border: .1em solid #52527e;
+    margin: .5em 0;
+}
+/*aside*/
+aside{
+    background-color: #000031;
+    border: .3em solid #52527e;
+    margin-top: .5em;
+    float: right;
+    width: 48%;
+    max-height: 40em;
+}
+aside p{
+    padding-top: 5px;
+
+}
+aside img {
+    display: block;
+    clip-path: circle(50%);
+    width: 40%;
+    max-width: 200px;
+    margin: 1em auto;
+    object-fit: contain;
+    object-position: bottom;
+}
+/*Gallery photo's*/
+figure {
+ width: 40%;
+ max-width: 200px;
+ margin: 2em auto;
+ background-color: black;
+ border: .1em solid #000000;
+ display: inline-block;
+ padding: .5em;
+}
+figure img{
+ width: 100%;
+ height: 11em;
+ object-fit: contain;
+ object-position: bottom;
+}
+
+figure:hover {
+ border: .1em solid #ffffff;
+}
+figcaption {
+ padding: 3em 1em;
+ font-size: 1em;
+ text-align: center;
+}
+/*footer info*/
+footer {
+ margin-top: .5em;
+ padding: 1em;
+ text-align: center;
+ clear: both;
+}
+footer p {
+ font-size: 80%;
+ text-align: center;
+}
